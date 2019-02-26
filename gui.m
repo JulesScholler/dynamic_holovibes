@@ -34,8 +34,8 @@ handles.octCam.FcamOCT=150;
 handles.exp.piezoMode=1;
 handles.exp.PhiPiezo=0;
 handles.exp.AmplPiezo=0;
-addAnalogOutputChannel(handles.DAQ.s,'Dev3','ao1','Voltage'); % Piezo Ref arm OCT
-addAnalogOutputChannel(handles.DAQ.s,'Dev3','ao0','Voltage'); % Trigger Camera OCT
+addAnalogOutputChannel(handles.DAQ.s,'Dev4','ao1','Voltage'); % Piezo Ref arm OCT
+addAnalogOutputChannel(handles.DAQ.s,'Dev4','ao0','Voltage'); % Trigger Camera OCT
 handles.output = hObject;
 guidata(hObject, handles);
 
